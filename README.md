@@ -20,11 +20,15 @@ We are going to use different technologies such as Python, Amazon Web Services (
 ## Dataset Used
 Twitter API
 
-## Install requirement:
+## Install requirement (on EC2 Ubuntu)
 ```
-$ pip3 install pandas
-$ pip3 install tweepy
-$ pip3 install s3fs
+$ sudo apt-get update
+$ sudo apt install python3-pip
+$ sudo pip install apache-airflow
+$ sudo pip install pandas 
+$ sudo pip install s3fs
+$ sudo pip install tweepy
+
 ```
 
 ## Connect to EC2 from local computer

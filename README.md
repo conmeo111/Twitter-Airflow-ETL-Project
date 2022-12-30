@@ -2,7 +2,12 @@
 
 ## Introduction 
 
-We are going to use different technologies such as Python, Amazon Web Services (AWS).
+We are going to use different technologies such as Python, Amazon Web Services (AWS)
+
+To get API Access and Document about all the function in this project you could visit here:
+https://developer.twitter.com/en/docs/twitter-api
+
+In this project, you could collect some public information of everyone on Twitter if you have their username. Extract it, transform it and load it to AWS S3 Storage
 
 ## Architecture 
 <img src="Architecture.png">

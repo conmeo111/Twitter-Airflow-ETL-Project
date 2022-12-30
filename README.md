@@ -20,6 +20,13 @@ We are going to use different technologies such as Python, Amazon Web Services (
 ## Dataset Used
 Twitter API
 
+## Install requirement:
+```
+$ pip3 install pandas
+$ pip3 install tweepy
+$ pip3 install s3fs
+```
+
 ## Connect to EC2 from local computer
 When you create instance on EC2, remember to create Key pair and download it
 
@@ -45,6 +52,12 @@ $ df.to_csv('s3://airflow-bucket-luan/refined_tweets.csv')
 
 ```
 
+## Connect to Airflow from EC2 Ubuntu
+
+```
+$ airflow standalone
+
+```
 
 
 

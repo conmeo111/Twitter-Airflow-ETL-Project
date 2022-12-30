@@ -68,6 +68,11 @@ $ airflow standalone
 
 ```
 
+When your DAG run successfully you could see message like this
+<img src="success airflow.png">
+
+And your S3 would catch exactly the data
+<img src="s3 airflow.png">
 
 
 
